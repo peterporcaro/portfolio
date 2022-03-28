@@ -11,7 +11,7 @@ dark tan #f4e09c
 
 /* Universal Styles */
 
-html {
+* {
     box-sizing: border-box;
 }
 
