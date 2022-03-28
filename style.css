@@ -11,13 +11,14 @@ dark tan #f4e09c
 
 /* Universal Styles */
 
-* {
+html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
+    margin-top: 100px; /* for header */
 }
 
 h1 {
@@ -84,4 +85,27 @@ header a:hover {
     float: left;
     padding-left: 2rem;
     margin-top: 0.8rem;
+}
+
+
+/* Banner section */
+
+.banner {
+    display: inline-block;
+    background-color: #124e78;
+    
+}
+
+.banner img {
+    width: 40%;
+    float: left;
+}
+
+.hero-container * {
+    float: right;
+}
+
+.hero-container {
+    background-color: #124e78;
+    
 }
