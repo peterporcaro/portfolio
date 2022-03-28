@@ -1,0 +1,87 @@
+/* colors!
+dark blue #124e78
+dark red #6e0e0a
+red #d74e09
+orange #f2bb05
+tan #f0f0c9
+
+gray #282828
+dark tan #f4e09c
+*/
+
+/* Universal Styles */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    height: 100%;
+}
+
+li {
+    display: inline;
+}
+
+h1, h2, li {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Header section */
+
+header {
+    background-image: url('./img/header.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+header ul {
+    float: right;
+    margin-top: 1.4rem;
+}
+
+header li {
+    padding: 0 1rem;
+    margin-top: 0.8rem;
+}
+
+header a {
+    font-size: 36px;
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    padding-left: 2rem;
+    margin-top: 0.8rem;
+}

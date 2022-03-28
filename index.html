@@ -3,14 +3,24 @@
 <head>
     <title>Peter Porcaro | Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Header -->
 
     <header>
-        <nav>
+        <h2 id="logo">Peter Porcaro</h2>
 
+        <nav>
+            <ul class="nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -21,25 +31,67 @@
         <!-- Banner -->
 
         <section class="banner">
+            <img src="./img/peter porcaro.png" alt="Peter Porcaro">
 
+            <h1>Hey, I'm Peter!</h1>
+            <hr>
+            <p>Welcome to my portfolio. I'm a freelance web designer and college student in Wichita, KS studying mechanical engineering, but I have a passion for many things!</p>
+            <p>Some of my passions include web design, aviation, cars, music, photography, technology, and self improvement.</p>
+            <p>Let me know what I can do for you and we will work out a solution that exceeds your expectations!</p>
         </section>
 
         <!-- Projects -->
 
         <section class="projects">
+            <h2 class="subtitle">projects.</h2>
 
+            <div class="flex-container">
+                <div class="flex-item">
+                    <img src="./img/bridge.png" alt="Image of a bridge">
+
+                    <span class="button">
+                        <h3>photography</h3>
+                    </span>
+                </div>
+                <div class="flex-item">
+                    <img src="./img/code.png" alt="Image of HTML code">
+
+                    <span class="button">
+                        <h3>web design</h3>
+                    </span>
+                </div>
+                <div class="flex-item">
+                    <img src="./img/saxophone.png" alt="Image of a saxophone">
+
+                    <span class="button">
+                        <h3>music // more</h3>
+                    </span>
+                </div>
+            </div>
         </section>
 
         <!-- Skills -->
 
         <section class="skills">
+            <h2 class="subtitle">skills.</h2>
 
+            <div class="container">
+                <img src="./img/icons/html5.svg" alt="html5">
+                <img src="./img/icons/css3.svg" alt="css3">
+                <img src="./img/icons/js.svg" alt="JavaScript">
+                <img src="./img/icons/git.svg" alt="Git">
+                <img src="./img/icons/gh.svg" alt="GitHub">
+                <img src="./img/icons/figma.svg" alt="Figma">
+                <img src="./img/icons/console.png" alt="Bash">
+            </div>
         </section>
 
         <!-- Contact -->
 
         <section class="contact">
+            <h2 class="subtitle">contact.</h2>
 
+            <h2>let's get in touch!</h2>
         </section>
 
     </main>
